@@ -1,0 +1,35 @@
+<svg width="880" height="220" viewBox="0 0 880 220" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'SFMono-Regular', Menlo, Monaco, 'Courier New', monospace">
+  <rect width="880" height="220" rx="10" fill="#0D1117"/>
+  <rect x="1" y="1" width="878" height="218" rx="9" fill="none" stroke="#21262D" stroke-width="1"/>
+
+  <!-- eyebrow -->
+  <text x="40" y="36" font-size="12" fill="#6E7681">ritesh-yadav / activity log</text>
+  <line x1="40" y1="50" x2="840" y2="50" stroke="#21262D" stroke-width="1"/>
+
+  <!-- graph line connecting the three commits -->
+  <line x1="22" y1="78" x2="22" y2="150" stroke="#21262D" stroke-width="2"/>
+
+  <!-- commit 1: HEAD / now -->
+  <circle cx="22" cy="83" r="5" fill="#E3B341"/>
+  <text x="45" y="88" font-size="14" fill="#6E7681">3f2a91c</text>
+  <text x="130" y="88" font-size="14" font-weight="600" fill="#E3B341">(HEAD, now)</text>
+  <text x="275" y="88" font-size="15" font-weight="600" fill="#E6EDF3">leveling up → backend &amp; system design</text>
+
+  <!-- commit 2: v2 -->
+  <circle cx="22" cy="115" r="4" fill="#6E7681"/>
+  <text x="45" y="120" font-size="14" fill="#6E7681">a8e441d</text>
+  <text x="130" y="120" font-size="14" font-weight="600" fill="#8B949E">(tag: v2)</text>
+  <text x="275" y="120" font-size="15" fill="#C9D1D9">shipped → url shortener, auth service, ai resume analyzer</text>
+
+  <!-- commit 3: v1 -->
+  <circle cx="22" cy="147" r="4" fill="#6E7681"/>
+  <text x="45" y="152" font-size="14" fill="#6E7681">190ffbc</text>
+  <text x="130" y="152" font-size="14" font-weight="600" fill="#8B949E">(tag: v1)</text>
+  <text x="275" y="152" font-size="15" fill="#C9D1D9">started → mern stack fundamentals</text>
+
+  <!-- live prompt -->
+  <text x="40" y="196" font-size="14" fill="#6E7681">ritesh@main:~$</text>
+  <rect x="167" y="182" width="10" height="16" fill="#E3B341">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;1;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
